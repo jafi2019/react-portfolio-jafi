@@ -13,7 +13,10 @@ class Main extends Component {
     return (
         <HashRouter>   
         <div>
-          <h1>Japheth Habinshuti N. (Jafi)</h1>
+          <div classname="title"> 
+            <img src="jafi.png" alt="Jafi" />
+            <h1> Japheth HABINSHUTI N.(Jafi)</h1>
+          </div>
           <ul className="header">
             <li><NavLink exact to="/">Home</NavLink></li>
             <li><NavLink to="/about">About</NavLink></li>
